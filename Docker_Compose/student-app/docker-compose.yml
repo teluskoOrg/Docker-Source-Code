@@ -9,7 +9,7 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_URL: navin
+      POSTGRES_USER: navin
       POSTGRES_PASSWORD: 1234
       POSTGRES_DB: telusko
     ports:
